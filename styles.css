@@ -1,5 +1,35 @@
-p { text-align: center; color: red;}
-#para1 {text-align: center; color: blue;}
-.center {text-align: center; color: green;}
-body {background: #F5F5DC; font-family: Arial, Helvetica, sans-serif;}
-h1 {color: #19FA51; text-align: center;}
+* {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+h1 { 
+    text-align: center; 
+    color: blue; 
+    background-color: rgb(255, 215, 0, 0.8); 
+    border: 20px solid rgb(0, 0, 128, 0.8); 
+    width: 300px; 
+    padding: 50px; 
+    margin: auto;
+}
+div {
+    text-align: center; 
+    color: black;
+}
+.about, .skills, .projects, .contact {
+    border: 1px solid black; 
+    padding: 50px;
+}
+.about {
+    background-color: rgb(240,240,240,0.5);
+}
+.skills {
+    background-color: rgb(200,200,200,0.5);
+}
+.projects {
+    background-color: rgb(180,180,180,0.5);
+}
+.contact {
+    background-color: rgba(140, 140, 140, 0.5);
+}
+h2 {
+    text-decoration: underline;
+}
