@@ -1,14 +1,20 @@
 * {
    font-family: Arial, Helvetica, sans-serif; 
 }
+.header {
+    background-color: rgb(80, 80, 80);
+}
 h1 { 
     text-align: center; 
-    color: blue; 
+    color: rgb(0, 0, 128, 0.8); 
     background-color: rgb(255, 215, 0, 0.8); 
     border: 20px solid rgb(0, 0, 128, 0.8); 
     width: 300px; 
     padding: 50px; 
-    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 div {
     text-align: center; 
@@ -16,7 +22,7 @@ div {
 }
 .about, .skills, .projects, .contact {
     border: 1px solid black; 
-    padding: 50px;
+    padding: 10px;
 }
 .about {
     background-color: rgb(240,240,240,0.5);
