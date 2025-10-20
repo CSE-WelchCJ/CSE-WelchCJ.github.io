@@ -48,12 +48,16 @@ div {
     display: block;
     margin: auto;
 }
+*/
 
+/* Manipulate the links and their appearance
 a {
     text-decoration: none;
     color: purple;
 }
+*/
 
+/* Manipulate the paragraphs in .project
 .project p {
     text-align: center;
     margin: 15px;
