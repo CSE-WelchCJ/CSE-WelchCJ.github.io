@@ -1,3 +1,6 @@
+/* Notes in CSS look like this
+*/
+
 * {
    font-family: Arial, Helvetica, sans-serif; 
 }
@@ -35,6 +38,27 @@ div {
     background: rgb(115, 115, 191);
     border-radius: 25%;
 } 
+
+/* Things to try from class 10/20/25
+.project img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126,14,201);
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+.project p {
+    text-align: center;
+    margin: 15px;
+}
+*/
 
 .about, .skills, .projects, .contact {
     border: 1px solid black; 
