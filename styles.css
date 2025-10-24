@@ -24,17 +24,30 @@ h1 {
 
 div {
     text-align: center; 
-    color: black;
 }
 .projects { 
     display:flex; 
     flex-wrap:wrap; 
     background-color: rgb(180,180,180,0.5);
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    justify-content: center;
 }
+
+.projects_title {
+    background-color: rgb(180,180,180,0.5);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
 .project {
-    width: 30%;
-    margin: 10px;
-    padding: 20px 10px;
+    width: 25%;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 20px 10px;
     background: rgb(115, 115, 191);
     border-radius: 25%;
 } 
@@ -50,12 +63,24 @@ div {
 }
 */
 
-/* Manipulate the links and their appearance
-a {
-    text-decoration: none;
+/* Manipulate the links and their appearance*/
+a:link {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+a:visited {
     color: purple;
 }
-*/
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
 
 /* Manipulate the paragraphs in .project
 .project p {
@@ -64,7 +89,7 @@ a {
 }
 */
 
-.about, .skills, .projects, .contact {
+.about, .skills, .contact {
     border: 1px solid black; 
     padding: 10px;
 }
