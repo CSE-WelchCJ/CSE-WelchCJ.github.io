@@ -1,0 +1,81 @@
+/* Notes in CSS look like this
+*/
+
+* {
+   font-family: 'Times New Roman', Times, serif; 
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 5;
+   margin-right: 5;
+   padding: 0;
+   border: 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.top1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.front_matter, .top1 {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+}
+
+.front_matter {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#Education {
+    margin-top: 20px;
+}
+
+#Edu_Content {
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+#Edu_Content1 {
+    text-align: left;
+    width: 50%;
+}
+
+#Edu_Content2 {
+    text-align: left;
+    width: 50%;
+}
+
+#Experience {
+    margin-top: 20px;
+}
+
+#Exp_Content_Title1, #Exp_Content_Title2 {
+    font-style: italic;
+}
+
+#Exp_Content_Dates1, #Exp_Content_Dates2 {
+    font-style: italic;
+}
+
+#Skills {
+    margin-top: 20px;
+}
+
+#spacer {
+    margin-top: 20px;
+}
+
+#Skills_List {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
