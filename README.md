@@ -1,1 +1,2 @@
-This repo and the associated web page code is a college project.  I am enjoying learning how to code html and css files.
+This repository and those associated with it are part of the pages I am building as I progress through my Computer Science courses
+at the University of South Carolina.
